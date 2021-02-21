@@ -13,7 +13,6 @@ class RecipeView extends View {
 
   addHandlerUpdateServings(handler) {
     this.parentElement.addEventListener('click', function (e) {
-      e.preventDefault();
       const btn = e.target.closest('.btn--tiny');
       if (!btn) return;
       const numServing = +btn.dataset.updateTo;
@@ -128,7 +127,6 @@ class RecipeView extends View {
           <a
             class="btn--small recipe__btn"
             href="${this.data.sourceUrl}"
-            target="_blank"
           >
             <span>Directions</span>
             <svg class="search__icon">

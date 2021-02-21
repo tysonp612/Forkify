@@ -8,8 +8,6 @@ import bookmarksView from './view/bookmarksView.js';
 import addRecipeView from './view/addRecipeView.js';
 // import icons from '../img/icons.svg'; //Parcel 1
 
-const { async } = require('q');
-
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////

@@ -5,12 +5,22 @@
   "default": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
   "author": "SonPham",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.558",
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.605",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.605",
+    "@parcel/packager-css": "^2.0.0-nightly.605",
+    "@parcel/packager-html": "^2.0.0-nightly.605",
+    "@parcel/transformer-css": "^2.0.0-nightly.605",
+    "@parcel/transformer-html": "^2.0.0-nightly.605",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.605",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.605",
+    "@parcel/transformer-sass": "^2.0.0-nightly.605",
+    "parcel": "^2.0.0-nightly.603",
+    "postcss": "^8.2.6",
     "sass": "^1.32.5"
   },
   "dependencies": {
